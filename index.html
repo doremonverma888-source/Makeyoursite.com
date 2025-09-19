@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make Your Web - Web Development</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f4f8;
+    }
+    header {
+      background: linear-gradient(135deg, #4CAF50, #2196F3);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      background: #333;
+      overflow: hidden;
+    }
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background: #ddd;
+      color: black;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .highlight {
+      color: #FF5722;
+      font-weight: bold;
+    }
+    .hindi {
+      display: block;
+      color: #555;
+      margin-top: 5px;
+      font-size: 0.95em;
+    }
+    .services {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      flex: 1 1 300px;
+      padding: 25px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    }
+    .card h3 {
+      color: #2196F3;
+      margin-bottom: 15px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background: #FF5722;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #E64A19;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Make Your Web</h1>
+    <p>Create your own website easily by contacting us!<span class="hindi">आप हमसे संपर्क करके आसानी से अपनी वेबसाइट बना सकते हैं।</span></p>
+  </header>
+
+  <nav>
+    <a href="#home">Home / होम</a>
+    <a href="#services">Web Development / वेब डेवलपमेंट</a>
+    <a href="#about">About / हमारे बारे में</a>
+    <a href="#contact">Contact / संपर्क</a>
+  </nav>
+
+  <section id="home">
+    <h2>Make Your Web</h2>
+    <p class="highlight">
+      Ap yahan se contact karke apna website bana saqte hai.  
+      <span class="hindi">आप यहाँ संपर्क करके अपनी वेबसाइट बनवा सकते हैं।</span>
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Web Development / वेब डेवलपमेंट</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Basic Website</h3>
+        <p>Simple 3–5 pages website for small businesses.<span class="hindi">छोटे व्यवसायों के लिए सरल 3–5 पेज की वेबसाइट।</span></p>
+        <p><strong>Price: ₹7,000</strong><span class="hindi"><strong>कीमत: ₹7,000</strong></span></p>
+        <a href="#contact" class="btn">Get Your Website / वेबसाइट बनवाएँ</a>
+      </div>
+      <div class="card">
+        <h3>Modern Website</h3>
+        <p>Responsive, stylish website with extra features.<span class="hindi">उत्तरदायी, स्टाइलिश वेबसाइट जिसमें अतिरिक्त फीचर्स हों।</span></p>
+        <p><strong>Price: ₹15,000</strong><span class="hindi"><strong>कीमत: ₹15,000</strong></span></p>
+        <a href="#contact" class="btn">Get Your Website / वेबसाइट बनवाएँ</a>
+      </div>
+      <div class="card">
+        <h3>E-Commerce Website</h3>
+        <p>Online store with product pages, cart & payment integration.<span class="hindi">उत्पाद पेज, कार्ट और पेमेंट इंटीग्रेशन के साथ ऑनलाइन स्टोर।</span></p>
+        <p><strong>Price: ₹30,000 to 75,000</strong><span class="hindi"><strong>कीमत: ₹30,000 se 75,000</strong></span></p>
+        <a href="#contact" class="btn">Get Your Website / वेबसाइट बनवाएँ</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us / हमारे बारे में</h2>
+    <p>We are a dedicated team of developers and designers, passionate about creating beautiful and functional websites for our clients.
+      <span class="hindi">हम एक समर्पित डेवलपर्स और डिजाइनर्स की टीम हैं, जो अपने ग्राहकों के लिए सुंदर और कार्यात्मक वेबसाइट बनाने के लिए उत्साहित हैं।</span>
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact / संपर्क</h2>
+    <p>Email: <strong>info@makeyourweb.com</strong></p>
+    <p>Phone: <strong>8002637018</strong> | <strong>9006262563</strong></p>
+    <p>Contact us now to start your website today!
+      <span class="hindi">आज ही हमसे संपर्क करें और अपनी वेबसाइट शुरू करें!</span>
+      <p>you can pay some advance amount for trust.<br>“आप भरोसा करने के लिए कुछ पैसे पहले दे सकते हैं।”</p>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MakeYourWeb. All rights reserved.</p>
+  </footer>
+</body>
+</html>
